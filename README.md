@@ -38,8 +38,6 @@ lib/
 |-- main.dart        # Entry point of the application
 |-- screens/         # Contains the UI screens
 |   |-- home_screen.dart
-|-- widgets/         # Reusable UI components
-|-- models/          # Data models for payment methods
 |-- services/        # Handles payment gateway integration
 ```
 
@@ -55,14 +53,6 @@ lib/
 ## Stripe Payment Gateway
 This app uses `flutter_stripe` to integrate with Stripe's payment system. Update the API keys and configuration in `services/payment_service.dart` to match your Stripe account.
 
-## Testing
-To run tests, execute the following command:
-```bash
-flutter test
-```
-
-## Screenshots
-![Home Screen](docs/screenshots/home_screen.png)
 
 ## Dependencies
 - [Flutter](https://flutter.dev/)
