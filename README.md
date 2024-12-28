@@ -1,16 +1,71 @@
-# payapp
+This project is a basic Flutter application for testing a simple payment method integration. It demonstrates a straightforward implementation of a payment workflow.
 
-A new Flutter project.
+Features
 
-## Getting Started
+User-friendly UI for selecting payment methods.
 
-This project is a starting point for a Flutter application.
+Integration with a Stripe payment gateway.
 
-A few resources to get you started if this is your first Flutter project:
+Basic validation for payment inputs.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Confirmation screen after a successful payment.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Prerequisites
+
+Before running the app, ensure you have the following:
+
+Flutter SDK installed (Installation Guide)
+
+An IDE like Android Studio, VS Code, or IntelliJ IDEA.
+
+A connected device or emulator to test the app.
+
+Getting Started
+
+Clone the Repository:
+[
+git clone https://github.com/Omar-Einstein7/paytest.git
+cd simple-payment-method-app
+
+Install Dependencies:
+
+flutter pub get
+
+Run the App:
+
+flutter run
+
+Project Structure
+
+lib/
+|-- main.dart        # Entry point of the application
+|-- home_screen.dart
+
+|-- services/        # Handles payment gateway integration
+
+How It Works
+
+Home Screen:
+
+Users select a payment method (e.g., credit card, PayPal, etc.).
+
+
+Dependencies
+
+Flutter
+
+flutter_stripe
+
+http (for API calls)
+
+Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Happy coding! ✨
+
+
